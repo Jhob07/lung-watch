@@ -1,0 +1,86 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Local development
+.env
+.env.local
+.env.*.local
+
+# Database
+*.sqlite3
+*.db
+
+# Model checkpoints and large files
+*.pth
+*.h5
+*.hdf5
+*.pkl
+*.model
+*.weights
+
+# Specific large files
+venv/Lib/site-packages/torch/lib/torch_cpu.dll
+venv/Lib/site-packages/torch/lib/dnnl.lib
+venv/Lib/site-packages/cv2/cv2.pyd
+src/Models/*.pth
